@@ -1,0 +1,42 @@
+We have been explorative and found some possibilities of applications of AI.
+After going through some papers and websites we noted that the concepts are not so abstract and are very comprihensive.
+
+Possible applications of AI in stock markets.
+	1) sentiment analysis 
+	2)pattern recognisition for speculators and traders
+	3)Portfolio selection for investors
+
+Investment concepts:
+There are two kinds of people involved in markets. 1) speculators ,2)investors
+speculatios- 
+	1)they choose to buy stocks based on patterns like fibonaci levels,head and shoulders and many others
+	2)enterprising in natrure 
+	3)pattern recognisation and sentment analysis might help these kind of people
+investors-
+	1)they buy stocks in long term perspective
+	2)they look for parameters like price/earnings ,volume , earnings, revenues etc over the  past 5 or 10 years
+	3)portfolio selection based on these parameters might help these kind of people
+
+
+
+
+
+For any analysis to be done data is very essential and i felt the need for data acquisition and web scraping techniques.I can now 
+
+	1)extract any text data,tables available online.Still working on scrapping histograms,picharts etc
+	2)store dynamic data in real time
+
+Data analytics techniques learnt:
+ Techniques lilke principal componet analysis, Non negative matrix factorization 
+
+
+NEURAL NETWORK CONCEPTS LEARNT:
+
+Collect data to train.
+studied various activation functions.
+Learnt the concept of back propagation theorem.
+Training the network.
+Describing neuron with weights and given inputs.
+
+
+

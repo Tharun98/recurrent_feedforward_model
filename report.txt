@@ -1,0 +1,8 @@
+
+Till now we have learnt the concepts of various aspects in deep learning and trying to implement.
+Collect data to train.
+studied various activation functions.
+Learnt the concept of back propagation theorem.
+Training the network.
+Describing neuron with weights and given inputs.
+trying to implement in Google's tensorflow .

@@ -1,0 +1,24 @@
+key terms:
+
+	1)reinforcement learning
+	2)supervised lerning
+	3)fitness function
+	4)distributed representation
+	5)logical terms
+	6)tensor based composition funciton
+	7)hopfield network
+		8)content addressible memory
+		9)biderectional associative memory
+	10)elman networks and jordan networks
+		11)context units
+		12)helps in sequence predictions
+	13)echo state netowork
+		14)rnn with a sparsely connected random hidden layer
+		15)spiking neurons
+		16)liquid state machines
+	17)Neural history compressor
+		18)vanishing gradient problem
+		19)generative model
+	
+	
+
