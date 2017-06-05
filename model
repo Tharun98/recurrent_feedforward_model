@@ -19,6 +19,37 @@ key terms:
 	17)Neural history compressor
 		18)vanishing gradient problem
 		19)generative model
+	20)long short term memory
+		21)connectionist temporal classification
+		22)context sensitive languages
+	23)gated recurrent unit
+	24)Bi_directional rnn
+		25)teacher given target signals
+	26)contineous time rnn
+	27)hierarchial rnn
+	28)recurrent multilayer perceptron
+	29)second order rnn
+	30)multiple timescales rnn
+Pollack's sequential cascaded networks
+	1)Nural turing machines
+	2)Neural network push down automata
+	3)Bidirectional associative memory
+
+
+Learning
+	1)real time recurrent learning
 	
+
+The fundamental feature of a Recurrent Neural Network (RNN) is that the network contains at least one feed-back connection, so the activations can flow round in a loop. That enables the networks to do temporal processing and learn sequences, e.g., perform sequence recognition/reproduction or temporal association/prediction. 
+Theorem 1 
+All Turing machines may be simulated by fully connected recurrent networks built of neurons with sigmoidal activation functions.
+Theorem 2 NARX Networks with one layer of hidden neurons with bounded, one sided saturated (BOSS) activation functions and a linear output neuron can simulate fully connected recurrent networks with bounded one-sided saturated activation functions, except for a linear slowdown. 
+
+
+
 	
+1)temporal processing
+2)universal approximation theorem
+3) Non-linear Auto-Regressive with eXogeneous inputs (NARX) model
+4)associative memory
 
