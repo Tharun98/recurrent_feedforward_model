@@ -1,9 +1,82 @@
 key terms:
 
 	1)reinforcement learning
+		 In the operations research and control literature, the field where reinforcement learning methods are studied is called approximate dynamic programming.
+		In machine learning, the environment is typically formulated as a Markov decision process (MDP), as many reinforcement learning algorithms for this context utilize dynamic programming techniques.
+		The main difference between the classical techniques and reinforcement learning algorithms is that the latter do not need knowledge about the MDP and they target large MDPs where exact methods become infeasible.
+		The exploration vs. exploitation trade-off in reinforcement learning has been most thoroughly studied through the multi-armed bandit problem and in finite MDPs.
+		The basic reinforcement learning model consists of:
+			a set of environment and agent states {\displaystyle S} S;
+			a set of actions {\displaystyle A} A of the agent;
+			policies of transitioning from states to actions;
+			rules that determine the scalar immediate reward of a transition; and
+			rules that describe what the agent observes.
+		Exploration
+		Algorithms for control learning
+			Criterion of optimality
+			Burte force
+			value function approaches
+			Monte Carlo methods
+			Temporal difference methods
+				Recursive bellman equation
+			
+
 	2)supervised lerning
+		(input vector) compared with desired  (output vector) ==> inference function
+		Overview
+			1)select data
+			2)gather data 
+			3)represent data(curse of dimensionality)
+			4)determine function structure  eg. svm or decision trees
+			5)run, adjust parameters as a part of optimisation
+			6)evaluate accuracy
+		Bias Variance trade off
+			1)error= f(bias)+g(variance)
+			2)bias/variance parameter is provided so that it can be adjusted according to requirements
+		Function Complexity(classifier or regression function) and available training data			(simple function ==> less data ,high bias and less variance)
+			(complex function ==> more data, less bias and high variance)
+		Dimensionality of input data
+		Noise in the output values
+			Attempting to fit the data too carefully leads to overfitting.You can overfit even when there are no measurement errors (stochastic noise) if the function you are trying to learn is too complex for your learning model. In such a situation that part of the target function that cannot be modeled "corrupts" your training data - this phenomenon has been called deterministic noise. When either type of noise is present, it is better to go with a higher bias, lower variance estimator.
+			Allivate noise: early stopping to prevent overfitting
+			Different algorithms remove noisy data prior to training has decreased genralization error.
+
+		Ohter factors
+			1)heteroginity in data.Decision trees can handle the problem
+			2)linear regression, logistic regression and distance based methods performs poorly in case of feature redunt data
+			3)	independent feature   ==>linear funcions and distance function will outperform
+				comples interacted features ==>decision trees and neural networks will outperform
+
+ 
 	3)fitness function
-	4)distributed representation
+		A fitness function is a particular type of objective function that is used to summarise, as a single figure of merit, how close a given design solution is to achieving the set aims.Ranks the objects replaces the worst objets with new objects iteratively
+		Genetic algorithms need fitness function .It is an added advantage to be able to design fitness function.
+	4)distributed representation(source http://www.cs.toronto.edu/~bonner/courses/2014s/csc321/lectures/lec5.pdf)
+		Localist representation
+			easy to understand
+			easy to code
+			easy to learn
+			easy to assiciate with other representations or responses
+		Examples of componential structure
+			(big, yellow,volkswagen)
+			visual scene
+		Using simeltanity to bind things together
+		Using space to bind things together
+			• If we use topographic maps for different properties, we
+can assume that properties at the same location
+belong to the same thing.
+		The definition of “distributed representation”
+			• “Distributed representation” means a many-tomany
+relationship between two types of
+representation (such as concepts and neurons).
+– Each concept is represented by many
+neurons
+– Each neuron participates in the representation
+of many concepts
+		Coarse coding
+
+
+
 	5)logical terms
 	6)tensor based composition funciton
 	7)hopfield network
@@ -52,4 +125,6 @@ Theorem 2 NARX Networks with one layer of hidden neurons with bounded, one sided
 2)universal approximation theorem
 3) Non-linear Auto-Regressive with eXogeneous inputs (NARX) model
 4)associative memory
+5)Boltzman machine and restricted boltzman machine
+	6)contrastive divergence algorithm for gradient decent method
 
