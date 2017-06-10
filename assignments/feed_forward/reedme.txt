@@ -1,0 +1,21 @@
+
+simulate a neuron as a class called 'neuron' in python that takes number of inputs as an arguement.
+	The object neuron should contain an array of weights , a function that fires the neuron.
+	initilize initial weights to be random number in (-0.5 to 0.5)
+	the neuron should also contain a learning function.
+		q1.From the above created neuron simulate the boolian functions 'and' ,'or'
+			Test the correctness of the neuron.
+
+Create a class Neural_network from the idea of neuron.
+	The object should take number of layers ,number of neurons in each layer as inputs.
+	The object should also contain functions like error calculation, feednetwork
+	As a part of learning method the network should use back propagation  through gradient decent algorithms.
+	simulate a network that has input,hidden and output layers(8,3,8) structure. input data(x), target data(x).The network is expected to decode the input into a three bit number in the hidden layer.As the input flows form hidden to ouput layer , you should be able to see the number again.
+		eg .   input x=(1,0,0,0,0,0,0,0) ==> 0,0,0 ==>(1,0,0,0,0,0,0,0)
+				(0,1,0,0,0,0,0,0) ==>1,0,0 ==>(0,1,0,0,0,0,0,0)
+				(0,0,1,0,0,0,0,0) ==>0,1,0 ==>(0,0,1,0,0,0,0,0)
+				(0,0,0,1,0,0,0,0) ==>1,1,0 ==>(0,0,0,0,1,0,0,0)
+				(0,0,0,0,1,0,0,0) ==>0,0,1 ==>(0,0,0,0,1,0,0,0)
+				(0,0,0,0,0,1,0,0) ==>1,0,1 ==>(0,0,0,0,0,1,0,0)
+				(0,0,0,0,0,0,1,0) ==>0,1,1 ==>(0,0,0,0,0,0,1,0)
+				(0,0,0,0,0,0,0,1) ==>1,1,1 ==>(0,0,0,0,0,0,0,1)
