@@ -1,4 +1,6 @@
 
+import numpy as np
+import matplotlib.pyplot as plt
 class Neural_net(object):
     def __init__(self,input_nodes,hidden_nodes,output_nodes):
         #vectors to store nuron outputs
@@ -37,8 +39,8 @@ class Neural_net(object):
         error_array=[]
         for element in data:
             #print element[0:2]
-            self.forward(element)
-            error=self.backward(element)
+            self.forward(element[:2])
+            error=self.backward(element[2])
             error_array.append(error)
         #print error_array
         plt.plot(error_array)           #plotting error
