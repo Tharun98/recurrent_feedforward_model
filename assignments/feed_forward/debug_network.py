@@ -47,8 +47,8 @@ class Neural_net(object):
         plt.show()
 
 
-network=Neural_net(8,3,8)
-
+network=Neural_net(2,1,1)
+'''
 data_samples=np.identity(8)
 input_data=[data_samples[np.random.randint(0,8)] for i in range(2000)]
 network.train(input_data)
@@ -57,3 +57,13 @@ network.forward(test_sample)
 print 'test sample= ',test_sample
 print 'hidden ',network.hidden_nodes
 print 'output = ',network.output_nodes
+
+'''
+inputs_data=[[0 if r[0]<0 else 1,0 if r[1]<0 else 1] for r in np.random.randn(10,2) ]
+print inputs_data
+[r.append(r[0]|r[1]) for r in inputs_data]
+print inputs_data
+network.train(inputs_data)
+print network.input_nodes
+print network.hidden_nodes
+print network.output_nodes

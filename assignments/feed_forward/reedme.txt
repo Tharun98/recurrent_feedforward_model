@@ -8,9 +8,11 @@ simulate a neuron as a class called 'neuron' in python that takes number of inpu
 
 Create a class Neural_network from the idea of neuron.
 	The object should take number of layers ,number of neurons in each layer as inputs.
-	The object should also contain functions like error calculation, feednetwork
+	The object should also contain functions like error calculation, feedn etwork
 	As a part of learning method the network should use back propagation  through gradient decent algorithms.
-	simulate a network that has input,hidden and output layers(8,3,8) structure. input data(x), target data(x).The network is expected to decode the input into a three bit number in the hidden layer.As the input flows form hidden to ouput layer , you should be able to see the number again.
+	simulate a network that has input,hidden and output layers(8,3,8) structure. input data(x), target data(x).From information theory ,we know that 3 bits can represent 8 different numbers.We three nodes in the hidden layer is enough to retain the complete information and output the number in output layer.
+
+				input				output
 		eg .   input x=(1,0,0,0,0,0,0,0) ==> 0,0,0 ==>(1,0,0,0,0,0,0,0)
 				(0,1,0,0,0,0,0,0) ==>1,0,0 ==>(0,1,0,0,0,0,0,0)
 				(0,0,1,0,0,0,0,0) ==>0,1,0 ==>(0,0,1,0,0,0,0,0)

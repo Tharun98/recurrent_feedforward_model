@@ -1,0 +1,8 @@
+
+    Build a computational graph, this can be any mathematical operation TensorFlow supports.
+    Initialize variables, to compile the variables defined previously
+    Create session, this is where the magic starts!
+    Run graph in session, the compiled graph is passed to the session, which starts its execution.
+    Close session, shutdown the session.
+
+ 
