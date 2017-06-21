@@ -4,12 +4,16 @@ import matplotlib.pyplot as plt
 
 class neuron(object):
     def __init__(self,inputs):
+        #We initiate the neuron with learinig rate and weights
         self.inputs=inputs
         self.weights=np.random.randn(inputs+1)
         self.del_w=np.zeros(inputs+1)
         self.learning_rate=0.05
+    #activation funciton for the neuron
+    #in this case we use hyperbolic tangent
     def fire_func(self,x):
         return np.tanh(x)
+
     def forward(self,inp):
         y=np.inner(inp,self.weights)
         out=self.fire_func(y)
@@ -104,7 +108,7 @@ print network.weights_ho
 
 '''
 inputs_data=[[0 if r[0]<0 else 1,0 if r[1]<0 else 1] for r in np.random.randn(200,2) ]
-[r.append(r[0]|r[1]) for r in inputs_data]
+input_data=[r.append(r[0]|r[1]) for r in inputs_data]
 neu=neuron(2)
 neu.train(inputs_data)
 '''

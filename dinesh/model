@@ -44,12 +44,12 @@ key terms:
 		Ohter factors
 			1)heteroginity in data.Decision trees can handle the problem
 			2)linear regression, logistic regression and distance based methods performs poorly in case of feature redunt data
-			3)	independent feature   ==>linear funcions and distance function will outperform
+			3)	independent feature   ==>linear functions and distance function will outperform
 				comples interacted features ==>decision trees and neural networks will outperform
 
  
 	3)fitness function
-		A fitness function is a particular type of objective function that is used to summarise, as a single figure of merit, how close a given design solution is to achieving the set aims.Ranks the objects replaces the worst objets with new objects iteratively
+		A fitness function is a particular type of objective function that is used to summarise, as a single figure of merit, how close a given design solution is to achieving the set aims.Ranks the objects replaces the worst objects with new objects iteratively
 		Genetic algorithms need fitness function .It is an added advantage to be able to design fitness function.
 	4)distributed representation(source http://www.cs.toronto.edu/~bonner/courses/2014s/csc321/lectures/lec5.pdf)
 		Localist representation
@@ -60,20 +60,16 @@ key terms:
 		Examples of componential structure
 			(big, yellow,volkswagen)
 			visual scene
-		Using simeltanity to bind things together
+		Using simultanity to bind things together
 		Using space to bind things together
-			• If we use topographic maps for different properties, we
-can assume that properties at the same location
-belong to the same thing.
+			• If we use topographic maps for different properties, we can assume that properties at the same locationbelong to the same thing.
 		The definition of “distributed representation”
 			• “Distributed representation” means a many-tomany
-relationship between two types of
-representation (such as concepts and neurons).
-– Each concept is represented by many
-neurons
-– Each neuron participates in the representation
-of many concepts
-		Coarse coding
+relationship between two types of representation (such as concepts and neurons).
+– Each concept is represented by many neurons
+– Each neuron participates in the representation of many concepts
+		Coarse coding
+
 
 
 

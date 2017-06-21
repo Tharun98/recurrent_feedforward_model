@@ -1,0 +1,25 @@
+ae 		-activation error
+arima		-auro regression integrated moving avarage
+art		-adaptive resonance theory
+ats 		-automated trading system
+cdsc		-central depository and settlement corporation
+dax		-Deutscher aktien index
+es		-expert system
+ga		-genetic algorithm
+his		-hybrid intelligence system
+ict `		-information and communication technology
+lm		-levenberg-marquardt
+mlp		-multilayer perceptron
+pac		-probably approximately correct
+peas		-performance measure, envirornment actuators and sensors
+plr		-piecewise linear representation
+rdann		-robust Design of artificial neural network
+sarsa		-state action reward state action
+som		-self ogranizing map
+
+
+
+
+Other methods in time
+series prediction are linear regression, auto-regression and Auto-regression Integrated
+Moving Average (ARIMA).
