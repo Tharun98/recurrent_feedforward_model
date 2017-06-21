@@ -1,8 +1,9 @@
 find the historic stock price data in the specified folder
+assignemts/assignemt3
 
 The neural network is of feed forward type
 
-inputs of the neural network is (five past dates data, 10,15,20,30 days moving avarage  ,volume ,price/earnings ,earning per share)
+inputs of the neural network is (previous days (high ,low), past five days close price, 10,15,20,30 days moving avarage  ).Please refine the data in the file befor using. There might be some values missing .
 
 Network has two hidden layers and  each hidden layer has a bais neuron. number of neurons in each hidden layer is 2*n+1.
 
