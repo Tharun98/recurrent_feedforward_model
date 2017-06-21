@@ -1,0 +1,16 @@
+find the historic stock price data in the specified folder
+
+The neural network is of feed forward type
+
+inputs of the neural network is (five past dates data, 10,15,20,30 days moving avarage  ,volume ,price/earnings ,earning per share)
+
+Network has two hidden layers and  each hidden layer has a bais neuron. number of neurons in each hidden layer is 2*n+1.
+
+Try different error measurements and use the best.
+
+learning is by stochastic gradient decent.
+
+Output is next days closing price in one case. Opening price in next case.
+
+
+

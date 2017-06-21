@@ -1,0 +1,4 @@
+It is waste of computation,time and memory to train a network everytime we need to predect something
+If it is possible to store a network some where after we trained it ,it potentially saves resources
+Task is to find if there are ways to save a network so that we can start if from there instead of stating it over.
+Network to be stored is the previous assignment network.
